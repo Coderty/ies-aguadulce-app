@@ -1,0 +1,16 @@
+$layout-background-color: tomato;
+$layout-foreground-color: white;
+
+.nav {
+  background-color: $layout-background-color;
+  color: $layout-foreground-color;
+  padding: 10px;
+}
+footer {
+  background-color: $layout-background-color;
+  color: $layout-foreground-color;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 10px;
+}
